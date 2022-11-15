@@ -33,3 +33,8 @@ function getDefinition(word){
 
 const query = process.argv.slice(2); // get the word from the command line
 query.forEach(getDefinition);   // call the function for each word
+
+/*
+This program can run multiple words at once. For example, if you want to get the definitions for the words "hello" and "world", you can run the following command in the terminal:
+node app.js hello world
+*/
